@@ -10,7 +10,17 @@
 /* Shared style */
 .display-flex {
     display: flex;
-    justify-content: space-between;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 /* dark02 */
@@ -30,6 +40,16 @@
 /* header style */
 
 /* navbar related style */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 .nav-item {
     list-style: none;
     margin-right: 30px;
@@ -45,4 +65,32 @@
 .banner {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+/* banner related style */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-description {
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .display-flex {
+        flex-direction: column;
+    }
 }
