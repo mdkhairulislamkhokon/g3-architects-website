@@ -7,8 +7,42 @@
     font-style: normal;
 }
 
-/* Shard style */
+/* Shared style */
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* dark02 */
+.text-gray {
+    color: #424242;
+}
+
+/* dark03 */
+.text-light-gray {
+    color: #727272;
+}
+
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
 
 /* header style */
 
-/* navbar style */
+/* navbar related style */
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.navbar,
+.banner {
+    max-width: 1140px;
+    margin: 0 auto;
+}
