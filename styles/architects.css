@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 2.8rem;
+}
+
 /* dark02 */
 .text-gray {
     color: #424242;
@@ -112,10 +116,6 @@ main>section {
 .our-features {
     margin-left: 120px;
     max-width: 530px;
-}
-
-.features-title {
-    font-size: 2.8rem;
 }
 
 #quick-list {
